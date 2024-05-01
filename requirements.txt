@@ -1,0 +1,7 @@
+google_search_results==2.4.2
+openai==1.23.2
+pillow==10.3.0
+PySocks==1.7.1
+python-dotenv==1.0.1
+reflex==0.4.9
+trio-websocket==0.11.1

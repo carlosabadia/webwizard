@@ -1,0 +1,59 @@
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gen-button {
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	background: #e35497;
+	cursor: pointer;
+	background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+.gen-button-hero {
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	background: #e35497;
+	cursor: pointer;
+	box-shadow: #e35497 0px 0px 15px;
+	outline: 2px solid #fff;
+	background: linear-gradient(90deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+.cancel-button {
+	border: none;
+	color: #fff;
+	padding: 10px;
+	font-weight: 600;
+	background: #d23e3e;
+	cursor: pointer;
+}
+
+.gen-button.main {
+	-webkit-animation: animatedgradient 6s ease infinite alternate;
+	animation: animatedgradient 6s ease infinite alternate;
+	background-size: 300% 300%;
+}
+
+.gen-button-hero.main {
+	-webkit-animation: animatedgradient 6s ease infinite alternate;
+	animation: animatedgradient 6s ease infinite alternate;
+	background-size: 300% 300%;
+}
+
+.gen-button:hover {
+	box-shadow: #e35497 0px 0px 15px;
+	outline: 2px solid #fff;
+}
